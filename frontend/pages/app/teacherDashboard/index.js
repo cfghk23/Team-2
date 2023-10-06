@@ -1,8 +1,8 @@
 import ECommerce from "../../../components/Dashboard/E-commerce";
 import StudentList from "../../teacher-dashboard/studentList";
+import PageTemplate from "@components/reusable/template/PageTemplate.tsx";
 
 export default function Home() {
-
   const Sdata = [
     {
       name: "Apple",
@@ -58,8 +58,16 @@ export default function Home() {
 
   return (
     <>
-      <ECommerce />
-      <StudentList data={Sdata} />
+      <PageTemplate>
+        <ECommerce />
+        <StudentList data={Sdata} />
+        <iframe
+          src="https://www.chatbase.co/chatbot-iframe/yb5Zq7dG62CB901ToqRcv"
+          width="100%"
+          style={{ height: "100%", minHeight: 700 }}
+          frameborder="0"
+        ></iframe>
+      </PageTemplate>
     </>
   );
 }

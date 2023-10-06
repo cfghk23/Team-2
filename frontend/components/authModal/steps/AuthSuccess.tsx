@@ -32,7 +32,7 @@ export default function AuthSuccess() {
           color: "white",
         }}
       >
-        <h4>Welcome to iProtect.</h4>
+        <h4>Welcome to Project M2.</h4>
         <h2>You can now view and bookmark insurance quotations.</h2>
 
         <button

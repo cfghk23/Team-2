@@ -76,12 +76,12 @@ export const testimonialData = [
   {
     imgUrl: "/img/agent1.png",
     title: "Sophia Rodriguez – Student",
-    desc: "“iProtect has been an incredible resource for me to understand personal finance. The lessons are engaging, and I feel more confident managing my money now.”",
+    desc: "“Project M2 has been an incredible resource for me to understand personal finance. The lessons are engaging, and I feel more confident managing my money now.”",
   },
   {
     imgUrl: "/img/agent2.png",
     title: "Mr. Anderson – Teacher",
-    desc: "“iProtect is a fantastic tool for teaching students about financial literacy. The platform is user-friendly, and the content is relevant and practical.”",
+    desc: "“Project M2 is a fantastic tool for teaching students about financial literacy. The platform is user-friendly, and the content is relevant and practical.”",
   },
 ];
 

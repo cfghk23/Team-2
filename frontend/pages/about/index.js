@@ -8,8 +8,6 @@ import { VscChevronDown } from "@react-icons/all-files/vsc/VscChevronDown";
 // import Footer from "../components/reusable/template/Footer.tsx";
 
 export default function About() {
-  
-
   const wwo = [
     {
       title1: "1. Our Mission",
@@ -32,15 +30,13 @@ export default function About() {
     {
       title1: "4. Mobile App",
       title2: "Access Financial Knowledge on the Go",
-      desc: "iProtect has a mobile app that allows users to access all the platform's features on the go. With our mobile app, students can learn and practice financial concepts anytime, anywhere, making it convenient.",
+      desc: "Project M2 has a mobile app that allows users to access all the platform's features on the go. With our mobile app, students can learn and practice financial concepts anytime, anywhere, making it convenient.",
       img: "/about/booking.png",
     },
   ];
 
   return (
     <PageTemplate transparentNav={false} outsideApp darkBg={true} noFilter>
-      
-
       <div className={st.banner}>
         <div className={st.circle} />
         <div className={st.largeHeader} highlightword="Let's">
@@ -48,7 +44,7 @@ export default function About() {
           design your future
         </div>
         <div className={st.smallHeader}>
-        iProtect is an online platform that offers a wide range of services. 
+          Project M2 is an online platform that offers a wide range of services.
         </div>
         <div className={st.contactUs}>
           <p>About Us</p>
@@ -80,7 +76,7 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-               </Animation>
+              </Animation>
             ) : (
               <Animation fadeFromRight>
                 <div
@@ -105,12 +101,11 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-             </Animation>
+              </Animation>
             )
           )}
         </div>
       </div>
-    
     </PageTemplate>
   );
 }

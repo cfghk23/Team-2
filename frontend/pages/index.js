@@ -32,13 +32,8 @@ export default function Home() {
           </div>
 
           <div className={styles.featureContainer}>
-            <h1>iProtect Features</h1>
-            <p>
-              From child savings and life insurance to college admissions and
-              financial aid consulting, we provide comprehensive, customizable
-              solutions that are tailored to meet the unique needs and goals of
-              each client.
-            </p>
+            <h1>Project M2 Features</h1>
+            <p></p>
             <Card
               padding="3vh"
               alignImage="flex-start"
