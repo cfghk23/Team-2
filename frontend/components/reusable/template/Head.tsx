@@ -1,12 +1,12 @@
-import Head from 'next/head'
+import Head from "next/head";
 import React from "react";
-function SiteHead({title = 'AEEA'}) {
+function SiteHead({ title = "AEEA" }) {
   return (
     <Head>
-      <title>iProtect</title>
-      <link rel="icon" href="/logo.png"/>
+      <title>Project M2</title>
+      <link rel="icon" href="/logo.png" />
     </Head>
-  )
+  );
 }
 
-export default SiteHead
+export default SiteHead;

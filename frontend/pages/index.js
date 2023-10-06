@@ -21,10 +21,7 @@ export default function Home() {
       <PageTemplate transparentNav={false} outsideApp darkBg={true} noFilter>
         <div className={styles.mainContainer}>
           <div className={styles.headerContainer}>
-            <img
-              src="/home_pg/life.jpg"
-              className={styles.headerImage}
-            />
+            <img src="/home_pg/life.jpg" className={styles.headerImage} />
             <div className={styles.headerTextContainer}>
               <h1 className={styles.darkColorText}>
                 Let's create your child's bright future
@@ -35,10 +32,8 @@ export default function Home() {
           </div>
 
           <div className={styles.featureContainer}>
-            <h1>iProtect Features</h1>
-            <p>
-           
-            </p>
+            <h1>Project M2 Features</h1>
+            <p></p>
             <Card
               padding="3vh"
               alignImage="flex-start"
@@ -83,9 +78,7 @@ export default function Home() {
           <div className={`${styles.contactContainer} ${styles.flex}`}>
             <div>
               <h1 className={styles.marginBotSm}>Want to talk with us?</h1>
-              <p>
-                We'd love to hear from you. 
-              </p>
+              <p>We'd love to hear from you.</p>
             </div>
             <div>
               {/* //* this below div can be changed to button later on! */}

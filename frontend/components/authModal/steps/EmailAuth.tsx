@@ -27,33 +27,33 @@ export default function EmailAuth() {
 
   // <------------------save all account info after making requests to the backend API begins----------------->
   const saveAccountInfo = (responseJson, loginType) => {
-  //   setEmail("");
-  //   setPassword("");
-  //   setLoading(false);
+    //   setEmail("");
+    //   setPassword("");
+    //   setLoading(false);
 
-  //   const userInfo = responseJson;
-  //   dispatch({
-  //     type: SET_STORAGE_ITEM,
-  //     key: "jwt",
-  //     value: responseJson.access_token,
-  //   });
-  //   dispatch({
-  //     type: SET_STORAGE_ITEM,
-  //     key: "userID",
-  //     value: userInfo.cus_uid,
-  //   });
-  //   dispatch({ type: SET_STORAGE_ITEM, key: "userType", value: "customer" });
+    //   const userInfo = responseJson;
+    //   dispatch({
+    //     type: SET_STORAGE_ITEM,
+    //     key: "jwt",
+    //     value: responseJson.access_token,
+    //   });
+    //   dispatch({
+    //     type: SET_STORAGE_ITEM,
+    //     key: "userID",
+    //     value: userInfo.cus_uid,
+    //   });
+    //   dispatch({ type: SET_STORAGE_ITEM, key: "userType", value: "customer" });
     dispatch({ type: SET_STORAGE_ITEM, key: "isLoggedIn", value: true });
-  //   dispatch({ type: SET_STORAGE_ITEM, key: "loginType", value: loginType });
-  //   dispatch({
-  //     type: SET_STORAGE_ITEM,
-  //     key: "userName",
-  //     value: name,
-  //   });
-  //   setLoading(false);
-  //   localStorage.setItem("token", responseJson.access_token);
+    //   dispatch({ type: SET_STORAGE_ITEM, key: "loginType", value: loginType });
+    //   dispatch({
+    //     type: SET_STORAGE_ITEM,
+    //     key: "userName",
+    //     value: name,
+    //   });
+    //   setLoading(false);
+    //   localStorage.setItem("token", responseJson.access_token);
 
-  //   dispatch({ type: SET_AUTH_MODAL_PAGE, value: authModalPages.SUCCESS });
+    //   dispatch({ type: SET_AUTH_MODAL_PAGE, value: authModalPages.SUCCESS });
   };
   // <------------------save all account info after making requests to the backend API ends----------------->\
 
@@ -89,7 +89,6 @@ export default function EmailAuth() {
 
     //     setLoading(false);
 
-        
     //       const userInfo = responseJson;
     //       dispatch({
     //         type: SET_STORAGE_ITEM,
@@ -123,7 +122,7 @@ export default function EmailAuth() {
     //         value: authModalPages.EMAIL_VERIFICATION,
     //       });
     //       localStorage.setItem("token", '6546');
-      
+
     //   } catch (error) {
     //     alert(error);
     //   }
@@ -139,6 +138,8 @@ export default function EmailAuth() {
     email,
     password,
   }) => {
+    if (email == "jacky@gmail.com") localStorage.setItem("token", "teacher");
+    else localStorage.setItem("token", "student");
     dispatch({ type: SET_AUTH_MODAL_PAGE, value: authModalPages.SUCCESS });
     dispatch({ type: SET_STORAGE_ITEM, key: "isLoggedIn", value: true });
     // // const {t} = useTranslation('login');
@@ -164,9 +165,8 @@ export default function EmailAuth() {
     //     });
     //     const responseJson = await response.json();
 
-      
     //       saveAccountInfo(responseJson, "email");
-       
+
     //   } catch (error) {
     //     alert(error);
     //   } finally {

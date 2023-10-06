@@ -90,18 +90,23 @@ export default function Nav({
               </Link>
               <Link href={"/quiz"} passHref>
                 <div className={st.dropbtn}>
-                  <p className={st.navText}>{"quiz"}</p>
+                  <p className={st.navText}>{"Quiz"}</p>
+                </div>
+              </Link>
+              <Link href={"/courses"} passHref>
+                <div className={st.dropbtn}>
+                  <p className={st.navText}>{"Courses"}</p>
                 </div>
               </Link>
               <Link href={"/ranking"} passHref>
                 <div className={st.dropbtn}>
-                  <p className={st.navText}>{"ranking"}</p>
+                  <p className={st.navText}>{"Ranking"}</p>
                 </div>
               </Link>
 
               <Link href={"/gameList"} passHref>
                 <div className={st.dropbtn}>
-                  <p className={st.navText}>{"games"}</p>
+                  <p className={st.navText}>{"Games"}</p>
                 </div>
               </Link>
               {/* <Link href={"/app"} passHref>

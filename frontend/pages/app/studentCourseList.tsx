@@ -38,7 +38,7 @@ export default function index() {
       name: "Introduction to Finance I",
       onClick: () => {
         router.push({
-          pathname: "/app/ePlanningFilter",
+          pathname: "/courses",
           query: {
             //   cat_id: id,
           },
@@ -51,7 +51,7 @@ export default function index() {
       name: "Introduction to Finance II",
       onClick: () => {
         router.push({
-          pathname: "/app/cSavingsFilter",
+          pathname: "/courses",
           query: {
             //   cat_id: id,
           },
@@ -64,7 +64,7 @@ export default function index() {
       name: "Introduction to Finance III",
       onClick: () => {
         router.push({
-          pathname: "/app/lifeInsurFilter",
+          pathname: "/courses",
           query: {
             //   cat_id: id,
           },

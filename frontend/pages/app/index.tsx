@@ -37,12 +37,20 @@ export default function index() {
     {
       name: "Introduction to Finance I",
       onClick: () => {
-        router.push({
-          pathname: "/app/teacherDashboard",
-          query: {
-            //   cat_id: id,
-          },
-        });
+        if (localStorage.getItem("token") == "teacher")
+          router.push({
+            pathname: "/app/teacherDashboard",
+            query: {
+              //   cat_id: id,
+            },
+          });
+        else
+          router.push({
+            pathname: "/app/bull",
+            query: {
+              //   cat_id: id,
+            },
+          });
       },
       imgUrl: "/icon/FinancialPlanning3.svg",
     },
@@ -78,7 +86,8 @@ export default function index() {
     <>
       <PageTemplate>
         <h1 className="mt-4 ml-4 mb-4 text-4xl font-extrabold leading-none tracking-tight text-black md:text-5xl lg:text-6x">
-          Welcome, student/teacher!
+          Welcome,{" "}
+          {localStorage.getItem("token") == "student" ? `student` : `teacher`}
         </h1>
         <div className={st.app}>
           <Animation delay={-4}>

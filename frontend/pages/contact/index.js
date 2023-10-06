@@ -2,7 +2,6 @@ import PageTemplate from "../../components/reusable/template/PageTemplate.tsx";
 import st from "./contact.module.scss";
 
 export default function Contact() {
-
   const contactData = [
     {
       imgUrl: "/contact/location.png",
@@ -11,7 +10,7 @@ export default function Contact() {
     },
     {
       imgUrl: "/contact/email.png",
-      desc: "info@iProtect.in",
+      desc: "info@Project M2.in",
       type: "email",
     },
     {
@@ -25,7 +24,7 @@ export default function Contact() {
     <PageTemplate outsideApp>
       <div className={st.mainContainer}>
         <div>
-          <h1>Contact iProtect</h1>
+          <h1>Contact Project M2</h1>
           <p>Let's discuss how we can help you!</p>
         </div>
         <div>
