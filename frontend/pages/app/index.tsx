@@ -35,7 +35,7 @@ export default function index() {
 
   const list = [
     {
-      name: "Education Planning",
+      name: "Introduction to Finance I",
       onClick: () => {
         router.push({
           pathname: "/app/ePlanningFilter",
@@ -48,7 +48,7 @@ export default function index() {
     },
 
     {
-      name: "Child Savings",
+      name: "Introduction to Finance II",
       onClick: () => {
         router.push({
           pathname: "/app/cSavingsFilter",
@@ -61,7 +61,7 @@ export default function index() {
     },
 
     {
-      name: "Life Insurance",
+      name: "Introduction to Finance III",
       onClick: () => {
         router.push({
           pathname: "/app/lifeInsurFilter",
@@ -77,34 +77,17 @@ export default function index() {
   return (
     <>
       <PageTemplate>
+        <h1 className="mt-4 ml-4 mb-4 text-4xl font-extrabold leading-none tracking-tight text-black md:text-5xl lg:text-6x">
+          Welcome, student/teacher!
+        </h1>
         <div className={st.app}>
-          <Swiper
-            modules={[Pagination, A11y, Autoplay]}
-            spaceBetween={0}
-            slidesPerView={1}
-            loop={true}
-            autoplay={{ delay: 3000 }}
-            pagination={{ clickable: true }}
-            className={`${st.swiperContainer} ${st.customPaginationBullet} ${st.customPaginationBulletActive} ${st.customPaginationContainer}`}
-          >
-            {imgData.map((data, index) => (
-              <SwiperSlide key={index}>
-                <img
-                  src={data.imgUrl}
-                  alt={`${data.alt} ${index}`}
-                  key={index}
-                  className={st.swiperImg}
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-
           <Animation delay={-4}>
             <div className={st.homeContainer}>
-              <h4 className={st.sectionTitle}>Features</h4>
+              <h4 className={st.sectionTitle}>My courses</h4>
               {/* <h4 className={st.sectionBrief}>
                 {brief}
             </h4> */}
+
               <div className={`${st.choiceList} ${st.hvr1}`}>
                 {list.map((item, i) => {
                   return (
@@ -112,7 +95,7 @@ export default function index() {
                       className={st.selBox}
                       onClick={() => item.onClick()}
                     >
-                      <img src={item.imgUrl} className={st.selImg} />
+                      {/* <img src={item.imgUrl} className={st.selImg} /> */}
                       <h4 className={st.selTxt}>{item.name}</h4>
                     </button>
                   );
