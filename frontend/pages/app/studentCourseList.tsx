@@ -38,7 +38,7 @@ export default function index() {
       name: "Introduction to Finance I",
       onClick: () => {
         router.push({
-          pathname: "/app/teacherDashboard",
+          pathname: "/app/ePlanningFilter",
           query: {
             //   cat_id: id,
           },
