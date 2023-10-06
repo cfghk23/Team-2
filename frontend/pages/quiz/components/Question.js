@@ -166,7 +166,7 @@ const Question = ({ question, id, setNumSubmitted, setNumCorrect }) => {
           {isSubmitted && (
             <button
               onClick={handleExplain}
-              className={`px-6 py-3  border-gray-500 rounded bg-stone-700 hover:bg-stone-600 ${explainButtonStyles()}`}
+              className={`px-6 py-3  border-gray-500 text-white rounded bg-stone-700 hover:bg-stone-600 ${explainButtonStyles()}`}
             >
               Explain
             </button>
@@ -174,7 +174,7 @@ const Question = ({ question, id, setNumSubmitted, setNumCorrect }) => {
           {!isSubmitted && (
             <button
               onClick={handleBuyHint}
-              className={`px-6 py-3 items-center flex flex-row  border-gray-500 rounded bg-stone-700 hover:bg-stone-600 ${hintButtonStyles()}`}
+              className={`px-6 py-3 items-center flex flex-row text-white border-gray-500 rounded bg-stone-700 hover:bg-stone-600 ${hintButtonStyles()}`}
             >
               <p>Buy a Hint</p>
               <svg
@@ -213,7 +213,7 @@ const Question = ({ question, id, setNumSubmitted, setNumCorrect }) => {
           )}
           <button
             onClick={handleAnswerSubmit}
-            className={`px-6 py-3   rounded ${submitButtonStyles()}`}
+            className={`px-6 py-3 text-white rounded ${submitButtonStyles()}`}
           >
             {isSubmitted ? "Submitted" : "Submit"}
           </button>

@@ -10,7 +10,7 @@ import React, { useEffect } from "react";
 import Router from "next/router";
 import nProgress from "nprogress";
 import "../styles/nprogress.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 import { wrapper } from "../redux/store";
 import { PersistGate } from "redux-persist/integration/react";

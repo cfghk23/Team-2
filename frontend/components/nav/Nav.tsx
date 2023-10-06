@@ -90,7 +90,12 @@ export default function Nav({
               </Link>
               <Link href={"/quiz"} passHref>
                 <div className={st.dropbtn}>
-                  <p className={st.navText}>{"quiz"}</p>
+                  <p className={st.navText}>{"Quiz"}</p>
+                </div>
+              </Link>
+              <Link href={"/courses"} passHref>
+                <div className={st.dropbtn}>
+                  <p className={st.navText}>{"Courses"}</p>
                 </div>
               </Link>
               <Link href={"/ranking"} passHref>
