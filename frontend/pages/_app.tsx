@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 
-
 import React, { useEffect } from "react";
 // import "react-vis/dist/style.css";
 // import "../styles/global.scss";
@@ -11,6 +10,7 @@ import React, { useEffect } from "react";
 import Router from "next/router";
 import nProgress from "nprogress";
 import "../styles/nprogress.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 import { wrapper } from "../redux/store";
 import { PersistGate } from "redux-persist/integration/react";
@@ -34,8 +34,6 @@ import styles from "../styles/Home.module.css";
 Router.events.on("routeChangeStart", nProgress.start);
 Router.events.on("routeChangeError", nProgress.done);
 Router.events.on("routeChangeComplete", nProgress.done);
-
-
 
 const WrappedApp = (ctx) => {
   const { Component, pageProps, router } = ctx;
@@ -103,9 +101,6 @@ const WrappedApp = (ctx) => {
 
   return (
     <>
-      
-
-  
       <PersistGate persistor={store.__persistor} loading={null}>
         <AnimateSharedLayout>
           <Component {...pageProps} key={router.route} />
