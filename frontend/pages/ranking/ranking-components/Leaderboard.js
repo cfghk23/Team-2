@@ -9,11 +9,11 @@ const Leaderboard = ({ data }) => {
       <div>
         <div className="flex-row items-center align-center justify-center mt-2">
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-black md:text-5xl lg:text-6x">
+            Leaderboard: <br/>
             Who's best at Finance?
           </h1>
         </div>
 
-        
         <div className="overflow-x-auto">
           <div className="align-middle inline-block min-w-full">
             <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
@@ -56,7 +56,14 @@ const Leaderboard = ({ data }) => {
                   {sortedData.map((item, index) => (
                     <tr key={index}>
                       <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                        {item.photo}
+                        <img
+                          src={item.photo}
+                          style={{
+                            width: "50px",
+                            height: "50px",
+                            borderRadius: "50%",
+                          }}
+                        ></img>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                         {item.name}

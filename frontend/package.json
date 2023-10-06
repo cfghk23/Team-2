@@ -92,6 +92,7 @@
     "react-google-login": "^5.2.2",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
+    "react-iframe": "^1.8.5",
     "react-image-crop": "^8.6.12",
     "react-lines-ellipsis": "^0.15.0",
     "react-morph": "^0.4.0",

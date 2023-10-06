@@ -35,7 +35,7 @@ export default function index() {
 
   const list = [
     {
-      name: "Introduction to Finance",
+      name: "Introduction to Finance I",
       onClick: () => {
         router.push({
           pathname: "/courses",
@@ -48,7 +48,7 @@ export default function index() {
     },
 
     {
-      name: "Interest rates",
+      name: "Introduction to Finance II",
       onClick: () => {
         router.push({
           pathname: "/courses",
@@ -61,7 +61,7 @@ export default function index() {
     },
 
     {
-      name: "Bonds",
+      name: "Introduction to Finance III",
       onClick: () => {
         router.push({
           pathname: "/courses",

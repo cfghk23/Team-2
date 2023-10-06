@@ -16,7 +16,7 @@ export const data = {
   datasets: [
     {
       label: "# of Votes",
-      data: [12, 19, 3, 5, 2, 3],
+      data: [19, 12, 10, 8, 2],
       backgroundColor: [
         "rgba(255, 99, 132, 0.5)",
         "rgba(54, 162, 235, 0.5)",
@@ -44,7 +44,7 @@ const MultiChartComponent = () => {
           datasets: [
             {
               label: "Number of Votes",
-              data: [12, 19, 3, 5, 2, 3],
+              data: [19, 12, 10, 8, 2],
               backgroundColor: [
                 "Red",
                 "Blue",
@@ -83,10 +83,10 @@ const MultiChartComponent = () => {
           ],
           datasets: [
             {
-              label: "My First dataset",
+              label: "Ranking",
               backgroundColor: "rgb(255, 99, 132)",
               borderColor: "rgb(255, 99, 132)",
-              data: [0, 10, 5, 2, 20, 30, 45],
+              data: [19, 12, 10, 8, 4, 4, 2],
             },
           ],
         },
