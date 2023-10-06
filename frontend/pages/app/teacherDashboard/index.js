@@ -1,12 +1,5 @@
 import ECommerce from "../../../components/Dashboard/E-commerce";
-import Leaderboard from "../../ranking/ranking-components/Leaderboard";
-
-export const metadata = {
-  title: "TailAdmin | Next.js E-commerce Dashboard Template",
-  description: "This is Home Blog page for TailAdmin Next.js",
-  // other metadata
-};
-
+import StudentList from "../../teacher-dashboard/studentList";
 
 export default function Home() {
 
@@ -66,7 +59,7 @@ export default function Home() {
   return (
     <>
       <ECommerce />
-      <Leaderboard data={Sdata} />
+      <StudentList data={Sdata} />
     </>
   );
 }
