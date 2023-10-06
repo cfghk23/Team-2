@@ -51,7 +51,7 @@ const options: ApexOptions = {
   },
 
   xaxis: {
-    categories: ["M", "T", "W", "T", "F", "S", "S"],
+    categories: ["Ques 1", "Ques 2", "Ques 3", "Ques 4", "Ques 5", "Ques 6", "Ques 7"],
   },
   legend: {
     position: "top",
@@ -102,7 +102,7 @@ const ChartTwo: React.FC = () => {
       <div className="mb-4 justify-between gap-4 sm:flex">
         <div>
           <h4 className="text-xl font-semibold text-black dark:text-white">
-            Time Spent per Question
+            Time Spent per Question (In Sec)
           </h4>
         </div>
         <div>

@@ -93,18 +93,18 @@ const options: ApexOptions = {
   xaxis: {
     type: "category",
     categories: [
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
+      "Quiz 1 ",
+      "Quiz 2 ",
+      "Quiz 3 ",
+      "Quiz 4 ",
+      "Quiz 5 ",
+      "Quiz 6 ",
+      "Quiz 7 ",
+      "Quiz 8 ",
+      "Quiz 9 ",
+      "Quiz 10 ",
+      "Quiz 11 ",
+      "",
     ],
     axisBorder: {
       show: false,
@@ -119,7 +119,7 @@ const options: ApexOptions = {
         fontSize: "0px",
       },
     },
-    min: 0,
+    min: 50,
     max: 100,
   },
 };
@@ -135,13 +135,13 @@ const ChartOne: React.FC = () => {
   const [state, setState] = useState<ChartOneState>({
     series: [
       {
-        name: "Product One",
-        data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30, 45],
+        name: "Investing Course - 3A ",
+        data: [69, 65, 80, 70, 65, 60, 80, 72, 65, 70, 60, 55],
       },
 
       {
-        name: "Product Two",
-        data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39, 51],
+        name: "Investing Course - 3B ",
+        data: [60, 55, 75, 75, 60, 55, 85, 77, 60, 65, 55, 60],
       },
     ],
   });
@@ -164,21 +164,15 @@ const ChartOne: React.FC = () => {
       <div className="flex flex-wrap items-start justify-between gap-3 sm:flex-nowrap">
         <div className="flex w-full flex-wrap gap-3 sm:gap-5">
           <div className="flex min-w-47.5">
-            <span className="mt-1 mr-2 flex h-4 w-full max-w-4 items-center justify-center rounded-full border border-primary">
-              <span className="block h-2.5 w-full max-w-2.5 rounded-full bg-primary"></span>
-            </span>
+            
             <div className="w-full">
-              <p className="font-semibold text-primary">Total Revenue</p>
-              <p className="text-sm font-medium">12.04.2022 - 12.05.2022</p>
+              <p className="font-semibold text-primary">Average Score between Classes</p>
             </div>
           </div>
           <div className="flex min-w-47.5">
-            <span className="mt-1 mr-2 flex h-4 w-full max-w-4 items-center justify-center rounded-full border border-secondary">
-              <span className="block h-2.5 w-full max-w-2.5 rounded-full bg-secondary"></span>
-            </span>
+            
             <div className="w-full">
-              <p className="font-semibold text-secondary">Total Sales</p>
-              <p className="text-sm font-medium">12.04.2022 - 12.05.2022</p>
+              <p className="font-semibold text-secondary">Year 2024</p>
             </div>
           </div>
         </div>
