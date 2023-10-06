@@ -1,0 +1,82 @@
+.container{
+  min-height: 100vh ; 
+  
+  
+  height: 644px;
+ 
+
+  background: #000000;
+  border-radius: 30px;
+
+  display : grid; 
+  grid-template-columns: 650px 538px;
+  column-gap: 61px;
+  grid-template-rows: 2fr 1fr 1fr ;
+  row-gap: 30px;
+  padding : 45px ; 
+
+  margin : 20px ;
+  margin-bottom: 50px;
+}
+
+.box1{
+  grid-row: 1/2 ;
+  grid-column: 1/2;
+
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 90px;
+  /* or 90% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.box2{
+  grid-row: 2/3 ;
+  grid-column: 1/2;
+
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+
+  color: #8F8F8F;
+}
+
+.box3{
+  grid-column: 1/2 ;
+  grid-row: 3/-1;
+
+  background: #FFFFFF;
+  border-radius: 50px;
+
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.box3:hover{
+  cursor : pointer ; 
+}
+
+.box4{
+  grid-column: 2/-1;
+  grid-row: 1/-1;
+  
+}
+
+.img{
+  width: 438px;
+  height: 538px;
+}

@@ -1,0 +1,12 @@
+.ageDisplay{
+  display: flex;
+  flex-direction: row;
+}
+
+.ageRangeTitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  margin-bottom: 0.5rem;
+}

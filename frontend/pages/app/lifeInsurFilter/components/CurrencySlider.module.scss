@@ -1,0 +1,21 @@
+.amountDisplay{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.titleRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.amountInput{
+  width: 80px;
+  text-align: center;
+  border: 1px solid #aaa;
+  height: 22px;
+  border-radius: 12px;
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,5 @@
+Note:
+
+Do "npm i --force". It'll give warning as I've used some old libraries.
+
+Use "npm run dev" to start the development server.

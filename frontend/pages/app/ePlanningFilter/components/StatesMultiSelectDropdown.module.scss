@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  
+    label {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  .dropdown {
+    margin-top: 0.25rem;
+  
+    .css-yk16xz-control {
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      height: 2.5rem;
+  
+      &:hover {
+        border-color: #80bdff;
+      }
+  
+      &.css-1pahdxg-control--is-focused {
+        box-shadow: none;
+        border-color: #80bdff;
+      }
+    }
+  
+    .css-g1d714-ValueContainer {
+      padding: 0.5rem;
+    }
+  
+    .css-1wa3eu0-placeholder,
+    .css-1uccc91-singleValue {
+      font-size: 0.875rem;
+      font-weight: 400;
+    }
+  
+    .css-1hb7zxy-IndicatorsContainer {
+      height: 2.5rem;
+      padding: 0.5rem;
+    }
+  
+    .css-tlfecz-indicatorContainer svg {
+      fill: #6c757d;
+    }
+  
+    .css-1okebmr-indicatorSeparator {
+      display: none;
+    }
+  
+    .css-26l3qy-menu {
+      margin-top: 0.25rem;
+      margin-bottom: 0;
+      border-radius: 0.25rem;
+      border: 1px solid #ced4da;
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+    }
+  
+    .css-1dvjvxa {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      font-size: 0.875rem;
+      color: #495057;
+  
+      &:hover {
+        background-color: #f8f9fa;
+      }
+  
+      &.css-1rv4j6n-option--is-selected {
+        background-color: #007bff;
+        color: #fff;
+      }
+  
+      &.css-1rv4j6n-option--is-focused {
+        background-color: #e9ecef;
+      }
+    }
+  
+    .css-yt9ioa-option {
+      padding-left: 0.75rem;
+    }
+  }

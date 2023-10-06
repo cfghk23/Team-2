@@ -1,7 +1,12 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./*"]
+    "compilerOptions": {
+      "jsx": "react",
+      "baseUrl": "./",
+      "paths": {
+        "@components/*": ["components/*"],
+        "@utils/*": ["utils/*"]
+      },
+      "allowImportingTsExtensions": true
     }
   }
-}
+  
