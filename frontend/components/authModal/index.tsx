@@ -24,6 +24,7 @@ export default function AuthModal() {
 
   const getModalContent = () => {
     switch (authModalPage) {
+
       case authModalPages.GATEWAY:
         // return <Gateway />;
         return <EmailAuth />;
@@ -41,6 +42,7 @@ export default function AuthModal() {
         return <AuthSuccess />;
       default:
         return null;
+        
     }
   };
 
