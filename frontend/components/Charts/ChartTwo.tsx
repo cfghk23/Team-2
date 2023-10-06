@@ -80,11 +80,11 @@ const ChartTwo: React.FC = () => {
   const [state, setState] = useState<ChartTwoState>({
     series: [
       {
-        name: "Sales",
+        name: "Correct",
         data: [44, 55, 41, 67, 22, 43, 65],
       },
       {
-        name: "Revenue",
+        name: "Wrong",
         data: [13, 23, 20, 8, 13, 27, 15],
       },
     ],
@@ -102,7 +102,7 @@ const ChartTwo: React.FC = () => {
       <div className="mb-4 justify-between gap-4 sm:flex">
         <div>
           <h4 className="text-xl font-semibold text-black dark:text-white">
-            Profit this week
+            Time Spent per Question
           </h4>
         </div>
         <div>
@@ -112,8 +112,8 @@ const ChartTwo: React.FC = () => {
               id="#"
               className="relative z-20 inline-flex appearance-none bg-transparent py-1 pl-3 pr-8 text-sm font-medium outline-none"
             >
-              <option value="">This Week</option>
-              <option value="">Last Week</option>
+              <option value="">Quiz 1</option>
+              <option value="">Quiz 2</option>
             </select>
             <span className="absolute top-1/2 right-3 z-10 -translate-y-1/2">
               <svg

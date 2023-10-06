@@ -13,7 +13,7 @@ const options: ApexOptions = {
     type: "donut",
   },
   colors: ["#10B981", "#375E83", "#259AE6", "#FFA70B"],
-  labels: ["Remote", "Hybrid", "Onsite", "Leave"],
+  labels: ["Average", "Excellence", "Fail", "Below Average"],
   legend: {
     show: true,
     position: "bottom",
@@ -60,7 +60,7 @@ const ChartThree: React.FC = () => {
       <div className="mb-3 justify-between gap-4 sm:flex">
         <div>
           <h5 className="text-xl font-semibold text-black dark:text-white">
-            Visitors Analytics
+            Student Performance
           </h5>
         </div>
         <div>
@@ -70,8 +70,8 @@ const ChartThree: React.FC = () => {
               id=""
               className="relative z-20 inline-flex appearance-none bg-transparent py-1 pl-3 pr-8 text-sm font-medium outline-none"
             >
-              <option value="">Monthly</option>
-              <option value="">Yearly</option>
+              <option value="">Quiz 1</option>
+              <option value="">Quiz 2</option>
             </select>
             <span className="absolute top-1/2 right-3 z-10 -translate-y-1/2">
               <svg
