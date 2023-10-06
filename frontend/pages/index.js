@@ -26,7 +26,7 @@ export default function Home() {
               <h1 className={styles.darkColorText}>
                 Let's create your child's bright future
               </h1>
-              <p>Get solutions at the tip of your fingertips</p>
+              <p>Let's keep finance at the tip of your fingertips</p>
               <VscChevronDown size={"100px"} />
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function Home() {
             descFontSize={"30px"}
           />
 
-          <div className={styles.testimonialsContainer}>
+          {/* <div className={styles.testimonialsContainer}>
             <h1>Testimonials</h1>
             <h1 className={styles.marginBotSm}>What our clients say</h1>
             <Card
@@ -78,15 +78,12 @@ export default function Home() {
               padding={"3vh"}
               descColor={"rgb(90, 90, 90)"}
             />
-          </div>
+          </div> */}
 
           <div className={`${styles.contactContainer} ${styles.flex}`}>
             <div>
               <h1 className={styles.marginBotSm}>Want to talk with us?</h1>
-              <p>
-                We'd love to hear from you. Let us help you to get the best
-                insurance possible using our data-driven technology
-              </p>
+              <p>We'd love to hear from you.</p>
             </div>
             <div>
               {/* //* this below div can be changed to button later on! */}

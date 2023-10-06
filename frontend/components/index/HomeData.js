@@ -1,56 +1,55 @@
 export const featureData = [
   {
     imgUrl: "/icon/mainpage_button1.svg",
-    title: "100+ Products",
-    desc: "Analyze more than 100 hottest insurance products.",
+    title: "Comprehensive Curriculum",
+    desc: "Access a wide range of financial topics and lessons designed for students.",
   },
   {
     imgUrl: "/icon/mainpage2.svg",
-    title: "Friendly UI/UX",
-    desc: "Easy to use hassle-free design for the most optimization.",
+    title: "Engaging Learning Experience",
+    desc: "Interactive activities and simulations to make learning finance fun.",
   },
   {
     imgUrl: "/icon/mainpage.svg",
-    title: "Accurate Matching",
-    desc: "Detailed comparison and choosing right product.",
+    title: "Practical Knowledge",
+    desc: "Learn essential financial skills that can be applied in real-life scenarios.",
   },
-
 ];
 
 export const comparisonData = {
-  title: "Product Comparison",
+  title: "Financial Product Comparison",
   mainImageUrl: "/img/mainpage_stockphoto3.png",
   data: [
     {
       imgUrl: "/icon/mainpage_button2.svg",
-      desc: "Protect your loved ones with life insurance.",
+      desc: "Compare different financial products and services available to students.",
     },
     {
       imgUrl: "/icon/mainpage_button3.svg",
-      desc: "Quick and easy comparison between different plans.",
+      desc: "Understand the features and benefits of various financial options.",
     },
     {
       imgUrl: "/icon/mainpage_button4.svg",
-      desc: "Personalized based on user needs and preferences.",
+      desc: "Make informed decisions when it comes to managing money as a student.",
     },
   ],
 };
 
 export const planningData = {
-  title: "Online Insurance Planning",
+  title: "Financial Planning Tools",
   mainImageUrl: "/img/mainpage_stockphoto2.png",
   data: [
     {
       imgUrl: "/icon/mainpage_button5.svg",
-      desc: "Insurance plans instantly recommended based on needs.",
+      desc: "Create a budget and manage personal finances effectively as a student.",
     },
     {
       imgUrl: "/icon/mainpage_button6.svg",
-      desc: "Entire financial plan provided with illustrations and KPI.",
+      desc: "Set financial goals and develop strategies to achieve them.",
     },
     {
       imgUrl: "/icon/mainpage_button7.svg",
-      desc: "Covers a wide range of areas such as education, retirement, etc.",
+      desc: "Explore saving and investing options tailored for students' needs.",
     },
   ],
 };
@@ -58,40 +57,40 @@ export const planningData = {
 export const featureTwoData = [
   {
     imgUrl: "/icon/mainpage_button8.svg",
-    title: "Data Driven",
-    desc: "Our team of professionals brings a wealth of experience and expertise to the table.",
+    title: "Expert Guidance",
+    desc: "Access advice and tips from financial experts specialized in student finance.",
   },
   {
     imgUrl: "/icon/mainpage_button9.svg",
-    title: "Secure",
-    desc: "The data collected is secure and in a segregated database to keep privacy.",
+    title: "Secure Platform",
+    desc: "Protect your personal information and ensure a safe learning environment.",
   },
   {
     imgUrl: "/icon/mainpage_button10.svg",
-    title: "Solution",
-    desc: "We work tirelessly to stay up-to-date on the latest industry trends, tools, and strategies.",
+    title: "Future Readiness",
+    desc: "Gain the financial knowledge and skills necessary for future success.",
   },
 ];
 
 export const testimonialData = [
   {
     imgUrl: "/img/agent1.png",
-    title: "Jonathan Wong – Financial Planner",
-    desc: "“It’s great to work on iProtect for all my life insurance planning needs. The app really makes the experience stress-free. If I use anything else, I will be frustrated, but iProtect makes this experience very easy. Thank you very much for all their help.”",
+    title: "Sophia Rodriguez – Student",
+    desc: "“iProtect has been an incredible resource for me to understand personal finance. The lessons are engaging, and I feel more confident managing my money now.”",
   },
   {
     imgUrl: "/img/agent2.png",
-    title: "Christy Kwok – Insurance Agent",
-    desc: "“I want to tell you what a great team they have. iProtect has done a great job for me and my life insurance. I spent days comparing insurance companies on the phone, but iProtect gave me a huge boost and made my life easier.”",
+    title: "Mr. Anderson – Teacher",
+    desc: "“iProtect is a fantastic tool for teaching students about financial literacy. The platform is user-friendly, and the content is relevant and practical.”",
   },
 ];
 
 export const awardsData = [
   {
     imgUrl: "/icon/mainpage3.svg",
-    desc: "Alibaba Fintech Startup Jumpstarters 2019",
+    desc: "Best Financial Education App 2022",
   },
-  { imgUrl: "/icon/mainpage4.svg", desc: "AI Co-Developer" },
-  { imgUrl: "/icon/mainpage5.svg", desc: "FinTech Awards 2020" },
-  { imgUrl: "/icon/mainpage6.png", desc: "PolyU Micro Fund" },
+  { imgUrl: "/icon/mainpage4.svg", desc: "Top EdTech Innovation Award" },
+  { imgUrl: "/icon/mainpage5.svg", desc: "Outstanding Learning Platform" },
+  { imgUrl: "/icon/mainpage6.png", desc: "Education Technology Excellence" },
 ];

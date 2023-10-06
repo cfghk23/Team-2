@@ -28,17 +28,22 @@ export default function ProfileModal() {
       <div className={styles.profileModalContainer}>
         <div>
           <div className={styles.userHead}>
+            
             <button
               className={styles.userImgContainer}
               onClick={() => router.push("MyProfile")}
               style={{ cursor: "pointer" }}
             ></button>
+
             <h4 className={styles.welcome_txt}>{greetingText()} </h4>
+
           </div>
+
           <button
             className={styles.buttonRow}
             onClick={() => router.push("/app/bookmarks")}
           >
+
             <IoHeartOutline color={"#777"} size={"30px"} />
             <h4 className={styles.viewInfoTabTxt}>{"Bookmarks"}</h4>
           </button>
