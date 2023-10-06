@@ -43,7 +43,7 @@ export default function EmailAuth() {
   //     value: userInfo.cus_uid,
   //   });
   //   dispatch({ type: SET_STORAGE_ITEM, key: "userType", value: "customer" });
-  //   dispatch({ type: SET_STORAGE_ITEM, key: "isLoggedIn", value: true });
+    dispatch({ type: SET_STORAGE_ITEM, key: "isLoggedIn", value: true });
   //   dispatch({ type: SET_STORAGE_ITEM, key: "loginType", value: loginType });
   //   dispatch({
   //     type: SET_STORAGE_ITEM,
@@ -140,6 +140,7 @@ export default function EmailAuth() {
     password,
   }) => {
     dispatch({ type: SET_AUTH_MODAL_PAGE, value: authModalPages.SUCCESS });
+    dispatch({ type: SET_STORAGE_ITEM, key: "isLoggedIn", value: true });
     // // const {t} = useTranslation('login');
     // setLoading(true);
     // if (email === "" || password === "") {

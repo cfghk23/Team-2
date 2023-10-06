@@ -6,7 +6,7 @@ export default function Contact() {
   const contactData = [
     {
       imgUrl: "/contact/location.png",
-      desc: "123, ABC Street, New Colony, Gurgaon, Haryana 122001, India.",
+      desc: "123, ABC Street, New Colony, Hong Kong.",
       type: "address",
     },
     {

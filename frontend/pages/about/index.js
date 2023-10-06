@@ -12,28 +12,27 @@ export default function About() {
 
   const wwo = [
     {
-      title1: "1.Our Mission ",
-      title2: "Helping Families Build a Brighter Future",
-      desc: "Whether you're looking to save for your child's education, protect your loved ones with life insurance, or navigate the complex process of college admissions, we're here to help every step of the way.",
+      title1: "1. Our Mission",
+      title2: "Helping Students Build a Brighter Financial Future",
+      desc: "Whether you're looking to learn about budgeting, investing, or understanding financial concepts, we're here to help every step of the way. Our mission is to provide students with the knowledge.",
       img: "/about/worker.png",
     },
     {
-      title1: "2.Our ",
-      title2: "Story",
-      desc: "We are committed to providing personalized, compassionate, and ethical services that meet the unique needs of each and every client. We are dedicated to building long-term relationships based on trust, transparency, and mutual respect.",
+      title1: "2. Our Story",
+      title2: "Committed to Student Financial Success",
+      desc: "We are committed to providing personalized, compassionate, and ethical services that meet the unique needs of each and every student. Our goal is to build long-term relationships based on trust, transparency, and mutual respect. ",
       img: "/about/about2.svg",
     },
     {
-      title1: "3.Our ",
-      title2: "team",
-      desc: "Our team of professionals brings a wealth of experience and expertise to the table, with a deep understanding of the financial and educational challenges facing families today. We are passionate about helping our clients achieve their goals, and we work tirelessly to stay up-to-date on the latest industry trends, tools, and strategies.",
+      title1: "3. Our Team",
+      title2: "Experienced Professionals Dedicated to Student Finance",
+      desc: "Our team of professionals brings a wealth of experience and expertise to the table, with a deep understanding of the financial challenges facing students today. We are passionate about helping students achieve their financial goals.",
       img: "/about/hand.png",
     },
-  
     {
-      title1: "4.Mobile ",
-      title2: "app",
-      desc: "iProtect has a mobile app that allows users to access all the platform's features on the go.",
+      title1: "4. Mobile App",
+      title2: "Access Financial Knowledge on the Go",
+      desc: "iProtect has a mobile app that allows users to access all the platform's features on the go. With our mobile app, students can learn and practice financial concepts anytime, anywhere, making it convenient.",
       img: "/about/booking.png",
     },
   ];
@@ -49,7 +48,7 @@ export default function About() {
           design your future
         </div>
         <div className={st.smallHeader}>
-        iProtect is an online platform that offers a wide range of services. From child savings and life insurance to college admissions and financial aid consulting, we provide comprehensive, customizable solutions that are tailored to meet the unique needs and goals of each client.
+        iProtect is an online platform that offers a wide range of services. 
         </div>
         <div className={st.contactUs}>
           <p>About Us</p>

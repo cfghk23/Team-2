@@ -58,7 +58,7 @@ export default function Nav({
         data-cy="topNav"
       >
         <div className={st.appNavLeft}>
-          <Link href={outsideApp ? "/" : "/app"}>
+          <Link href={outsideApp ? "/" : "/"}>
             <div className={st.appNavHead}>
               <div className={st.logoContainer}>
                 <Logo height={"7vh"} />
