@@ -43,7 +43,7 @@ export const Courses = () => {
           <h3 className="display-4 fw-bold lh-1">Dive Into:</h3>
           <p className="lead">This component provides a comprehensive foundation in fundamental financial principles, empowering learners to develop a solid understanding of key concepts and practices in the world of finance.
 
-Throughout the course, you will explore essential financial concepts and their applications in real-world scenarios. From the basics of budgeting and saving to the complexities of investment analysis and risk management, you will gain the necessary tools and insights to make informed financial decisions.</p>
+Through you will explore essential financial concepts and their applications in real-world scenarios. From the basics of budgeting and saving to the complexities of investment analysis and risk management, you will gain the necessary tools and insights to make informed financial decisions.</p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
             <Button variant="primary" size="lg" className="px-4 me-md-2 fw-bold">Take Quiz!</Button>
             <Button variant="outline-secondary" size="lg" className="px-4">Check LeaderBoard</Button>
